@@ -2,7 +2,7 @@
 
 require_once "include/app.php";
 
-App::setTitle('Paulina');
+App::setTitle('Paulina M.');
 
 
 
