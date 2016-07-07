@@ -2,7 +2,7 @@
 
 error_reporting(E_ALL);
 
-require_once "/const.php";
+require_once "const.php";
 
 
 class App
