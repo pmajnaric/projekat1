@@ -1,11 +1,12 @@
 <?php
+include "include/app.php";
 
-require_once "include/app.php";
-
+Error_reporting(E_ALL);
 //dodao sam komentar - Vlado
 
-App::setTitle('Paulina');
-App::template(['header']);
+App::setCss('main');
+App::setTitle('Index');
+App::template(['header','index','footer']);
 
 
 
