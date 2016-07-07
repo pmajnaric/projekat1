@@ -5,7 +5,7 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
 		<title><?= App::getTitle()?></title>
-		<link rel="planeta-1" type="image/ico" href="gfx/planeta-1.ico"/>
+		<link rel="icon"  href="gfx/planeta-1.ico"/>
 		<!--slika za browswer moze biti max 24px kockasta ili ikona(.ico)-->
 <?php
 		foreach(App::getCss() as $key=>$val)
