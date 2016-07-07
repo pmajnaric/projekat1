@@ -15,11 +15,7 @@
 
 
 ?>
-<div class="hej">
-
-		hej
-
-</div>		
+	
 </head>
 
 <body>
