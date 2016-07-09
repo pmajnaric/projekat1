@@ -1,23 +1,21 @@
 
 <style>
 
+html, body{ margin:0px; padding:0px; }
 
-.wrap{
+
+
+
+.wrapper{
 	
-	background-color: #FF0000;
-
-	}
+	background-image: url("gfx/poz-2.jpg");
+}
 
 
 .footer{
 
-	background-color: #FF0000;
-	
+		background-color:#FF0000;
 	}
-
-.hej{
-	
-	background-color: #FF0000;
-	}
-
 </style>	
+
+	

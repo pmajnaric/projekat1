@@ -15,7 +15,13 @@
 
 
 ?>
-	
+<!--
+<style>
+body {
+    background-image: url("gfx/poz-3.jpg");
+}
+</style>
+-->
 </head>
 
 <body>
