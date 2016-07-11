@@ -7,7 +7,7 @@ include "include/app.php";
 //dodao sam komentar - Vlado
 App::setCss('main');
 App::setTitle('Index');
-App::template(['header','index','footer']);
+App::template(['manu','header','index','footer']);
 
 
 
