@@ -1,21 +1,74 @@
 
 <style>
 
-html, body{ margin:0px; padding:0px; }
+html, body{ margin:0px;padding:0px; }
 
+.manu{
+font:
+size:
+margin:	
+	
+}
+.top-line{
+	margin:0px auto;
+	padding:0px;
+	background-color:#D7D6F8;
+	
+	
+}
+div.top-line{
+	height:60px;	
+}
 
+div.top-line ul li{
+	display: inline-block;
+	text-decoration:none;
+	float:left;
+	padding:30px 30px 2px 10px;
+}
 
+div.top-line a{
+	color:#808080;
+	font-family:Arial;
+	text-decoration:none;
+	font-size:20;
+}
+
+div.top-line a:hover{
+	text-decoration:underline;		
+}
 
 .wrapper{
-	
-	background-image: url("gfx/poz-2.jpg");
-}
+
+		
+	background-image:url("../gfx/poz-4.jpg");
+	margin:0px auto; 
+	weight:900px; height:1000px;
+	}
 
 
 .footer{
 
-		background-color:#FF0000;
+		background-color:#D7D6F8;
+		color:#808080;
+		font-size:15;
 	}
+.sent{
+		height:200px;		
+		padding:70px 0px 0px 0px;
+		margin:0px 10px 10px 0px;
+		color:#808080;
+		font-size:35;
+		font-family:Arial;
+		text-decoration:bold;
+		text-align:center;
+
+		}	
+.pics{
+	height:400px;
+	padding:0px 10px 0px 0px;
+	margin:0px 0px 0px 0px;
+}	
 </style>	
 
 	
