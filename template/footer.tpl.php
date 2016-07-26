@@ -1,4 +1,5 @@
-	<div id="footer">
+	<footer>
+		<div id="footer">
 
 		<div class="sadrzaj">
 	
@@ -17,8 +18,6 @@
 		
 		</div>
 
-		<div align="center"> </div>
-
-	</div>
+		</footer>
 </body>
 </html>

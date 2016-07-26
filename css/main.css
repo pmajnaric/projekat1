@@ -12,16 +12,11 @@ reset
 }
 
 
-html, body{ background-color: #fff;
+html, body{ 
+	background-color: #fff;
     font-family: "OpenSans";
     margin: 0; }
 
-.manu{
-font:
-size:
-margin:	
-	
-}
 div#info{
 	background: rgba(0, 0, 0, 0) url("../gfx/manu.jpg") repeat-x scroll left center;
     height: 41px;
@@ -40,7 +35,11 @@ div#info div {
     width: 960px;
 }
 
-div#info div h2 {
+div#info div h2{
+	color: #4e6779;
+    display: block;
+	font-family: Times New Roman;
+    font-size: 18px;
     float: left;
     font-weight: bold;
     height: 41px;
@@ -48,28 +47,10 @@ div#info div h2 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-	
-}
-h2 {
-	
-    color: #2c2c2c;
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 24px;
-    margin: 0 0 12px;
-}
-
-div#info div h2 a {
-    
-    color: #4e6779;
-    display: block;
-    font-family: Times New Roman;
-    font-size: 18px;
-    height: 41px;
-    text-decoration: none;
-    text-transform: uppercase;
+	text-decoration: none;
     width: 300px;
 }
+
 div#info div ul.navigation {
     float: right;
     height: 41px;
@@ -79,14 +60,14 @@ div#info div ul.navigation {
     padding: 0;
 }
 div#info div ul.navigation li{
-    float: left;
-    height: 41px;
+    display: inline-block;
+	float: left;
+    font-family: "OpenSans";
+	height: 41px;
     line-height: 41px;
-    margin-left: 10px;
+    list-style-type: none;
+	margin-left: 10px;
     width: auto;
-	list-style-type: none;
-	display: inline-block;
-	font-family: "OpenSans";
 }
 
 div#info div ul.navigation li.edit a {
@@ -110,11 +91,10 @@ div#info div ul.navigation li a {
     font-family: Arial;
     font-size: 12px;
     line-height: 41px;
-    padding: 0 30px 0 10px;
+    list-style-type: none;
+	padding: 0 30px 0 10px;
     text-decoration: none;
     text-transform: uppercase;
-	list-style-type: none;
-	
 }
 
 #header {
@@ -148,6 +128,7 @@ div#info div ul.navigation li a {
 #navigation li.active a {
     color: #f99600;
 }
+
 #navigation li a {
     color: #818181;
     font-size: 15px;
@@ -156,7 +137,7 @@ div#info div ul.navigation li a {
 }
 
 #wrapper{
-	 background: rgba(0, 0, 0, 0) url("../gfx/wrapper.jpg") repeat-x scroll left top;
+	background: rgba(0, 0, 0, 0) url("../gfx/wrapper.jpg") repeat-x scroll left top;
     height: 380px;
     padding: 60px 0;
 }
@@ -190,25 +171,24 @@ img {
     font-size: 60px;
     line-height: 60px;
     margin: 0;
- /*   text-transform: uppercase;*/
+
 }
 
 #wrapper h2 {
     color: #3e3e3e;
     font-size: 30px;
     font-weight: normal;
-    line-height: 30px;
-    margin: 0 0 30px;
+    line-height: 20px;
+    margin: 10 0 50px;
+	padding-left: 43px;	
 }
 
-#wrapper p {
+#wrapper h3 {
+    color: #585858;
     font-size: 16px;
     line-height: 24px;
-    margin: 0;
-}
-p {
-    color: #585858;
-    margin: 0 0 30px;
+    margin: 0 0 0px;
+    padding-left: 49px;	
 }
 
 #wrapper p span {
@@ -243,14 +223,6 @@ p {
 }
 
 
-box::after, #sadrzaj::after {
-    clear: both;
-    content: "";
-    display: block;
-    height: 1%;
-    line-height: 0;
-    visibility: hidden;
-}
 #sadrzaj {
     margin: 0 auto;
     min-height: 510px;
@@ -272,14 +244,18 @@ p {
 }
 
 #unutrasnjost h1 {
-    margin-left: 20px;
-}
-h1 {
     color: #3e3e3e;
     font-size: 30px;
     font-weight: normal;
     line-height: 30px;
-    margin: 0 0 30px;
+	margin-left: 30px;    
+}
+#unutrasnjost h3 {
+    color: #3e3e3e;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: -15px 30px 30px;
 }
 
 #footer {
