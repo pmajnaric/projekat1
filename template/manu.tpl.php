@@ -1,5 +1,4 @@
-
-	<header>
+<header>
 		<div id="info">
 
 		<div>
@@ -43,6 +42,5 @@
 		
 		</div>
 	</header>
-
 
 

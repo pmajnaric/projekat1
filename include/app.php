@@ -2,12 +2,15 @@
 
 error_reporting(E_ALL);
 
-require_once "const.php";
+require_once __DIR__ . "/const.php";  
+require_once __DIR__ . "/db.php";
+require_once  "../admin/include/admin_users.php";
+require_once __DIR__ . "/msg.php";
 
 
 class App
 {
-	
+	private static $db;
 	private static $defTitle='Velikani';
 	private static $page_meta=[];
 	private static $vars=[];
@@ -16,10 +19,30 @@ class App
 	private static $page_css=[];
 	
 	
-	public static function setTitle($title,$addTitle=true){
+	public static function setDB()
+	{
+		
+		self::$db=new DB(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+		
+		if(self::$db->connect_errno)
+		{
+			printf("Connection faild:s%\n", self::$db->connect_errno);
+			exit();
+		}
+	}
+	
+	public static function DB()
+		
+	{
+		
+		return self::$db;
+	}
+	
+	public static function setTitle($title, $addTitle=true){
 		
 		if(empty($title)){return;}
-		if($addTitle){$title=self::$defTitle."-{$title}";}
+		if($addTitle) {$title=self::$defTitle . " - {$title}" ; }
+		
 		 self::$page_meta['title']=$title;	
 		}
 	
@@ -56,10 +79,13 @@ class App
 			array_unique(self::$page_css);
 			return self::$page_css;
 		}
+	
 };
 
 
 
 
+session_start();
+App::setDB();
 
-
+?>

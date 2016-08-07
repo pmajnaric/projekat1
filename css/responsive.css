@@ -1,0 +1,396 @@
+
+@media(max-width: 960px)
+{
+	
+	
+	div#info div{
+		
+		width: 100%;
+	
+	}
+	
+	div#info div h2{
+	
+		width: 31.25%;
+}
+
+	div#info div ul.navigation li{
+ 	
+	margin-left: 1.041%;
+ 	width: auto;
+}
+	
+	div#info div ul.navigation li a {
+    
+	padding: 0% 3.125% 0% 1.041%;
+    
+}	
+
+	#header {
+    
+    padding: 2.812% 0%;
+}
+
+	#header > div, #footer > div{
+		
+		padding: 0% 2.083%;
+		width: 95.833%;
+	}
+	
+	#navigation li{
+		
+		width: 10.503%;
+	}
+	
+	#wrapper{
+	
+		padding: 6.25% 0%;
+}
+
+	
+	#wrapper > div {
+		
+		padding: 0% 8.33%;
+		width: 76.388%;
+	}
+	
+	#wrapper > div img {
+ 
+		margin-left: 6.25%;
+}
+	#wrapper h2 {
+    
+	margin: 1.041% 0% 5.208%;
+	padding-left: 4.479%;	
+}
+
+#wrapper h3 {
+    
+    padding-left: 5.104%;	
+}
+	#wrapper p span {
+padding: 24px 25px 0px 0px;
+		width: 34.375%;
+		
+		}
+	
+	.btn{
+		font: 2.5%/6.25%;
+		width: 21.961%;
+	}
+	
+	#wrapper p span b
+	{
+		width: 24.446%; 
+	}
+
+	
+	#sadrzaj
+	{
+		
+		width: 84.027% 
+	}
+	
+	/*#unutrasnjost > div
+	{
+		margin: 0% 2.083%;
+		width: 38.193%;
+	}
+	p {
+    
+    margin: 0% 0% 3.125%;
+}
+
+#unutrasnjost h1 {
+   
+	margin-left: 3.125%;    
+}
+
+*/
+span {
+    
+	margin-left: 3.125%;    
+}
+#unutrasnjost h3 {
+    
+    margin: 1.562% 3.125% 3.125%;
+}
+
+#footer {
+    
+    padding: 3.125% 0%;
+}
+}
+
+
+
+	
+	
+	
+
+@media (max-width: 880px) {
+
+
+	div#info div{
+		
+		width: 91.666%;
+	
+	}
+
+		div#info div h2{
+	
+		width: 28.645%;
+}
+	
+	div#info div ul.navigation li{
+ 	
+	margin-left: 0.954%;
+ 	
+}
+	div#info div ul.navigation li a {
+    
+	padding: 0% 2.864% 0% 0.954%;
+    
+}	
+	
+	#header {
+    
+    padding: 2.57% 0%;
+}
+	
+	#header > div, #footer > div{
+		
+		padding: 0% 1.909%;
+		width: 87.849%;
+	}
+	
+	#navigation li{
+		
+		width: 11.4583%;
+	}
+	
+	#wrapper{
+	
+		padding: 5.729% 0%;
+}
+	
+	#wrapper > div {
+		
+		padding: 0% 7.635%;
+		width: 83.333%;
+	}
+
+	#wrapper > div img {
+ 
+		margin-left: 5.729%;
+}
+	#wrapper h2 {
+    
+	margin: 0.954% 0% 4.774%;
+	padding-left: 4.075%;	
+}
+
+#wrapper h3 {
+    
+    padding-left: 4.675%;	
+}
+	#wrapper p span {
+padding: 24px 25px 0px 0px;
+		width: 37.5%;
+		
+		}
+	
+	.btn{
+		display: none;
+		
+	/*	font: 2.291%/5.729%;
+		width: 23.958%;/*
+	}
+	
+	#wrapper p span b
+	{
+		width: 26.666%; 
+	}
+
+	
+	#sadrzaj
+	{
+		
+		width: 91.666% 
+	}
+	
+/*	#unutrasnjost > div
+	{
+		margin: 0% 1.909%;
+		width: 41.666%;
+	}
+
+	p {
+    
+    margin: 0% 0% 2.864%;
+}
+
+#unutrasnjost h1 {
+   
+	margin-left: 2.864%;    
+}*/
+	span {
+    
+	margin-left: 2.864%;    
+}
+#unutrasnjost h3 {
+    
+    margin: 1.431% 2.864% 2.864%;
+}
+
+#footer {
+    
+    padding: 3.125% 0%;
+}
+	
+}
+@media (max-width: 480px) {
+
+
+	div#info div{
+		display: none;
+	/*	width: 49.999%;*/
+	
+	}
+
+	div#info div h2{
+	display: none;
+		/*width: 15.625%;*/
+}
+	
+	div#info div ul.navigation li{
+ 	display: none;
+		/*
+	margin-left: 0.52%;
+ 	width: auto;*/
+}
+	
+	div#info div ul.navigation li a {
+    display: none;
+		/*
+	padding: 0% 1.562% 0% 0.52%;
+*/
+}
+
+	#header {
+    
+    padding: 1.406% 0%;
+}
+	
+	#header > div, #footer > div{
+		
+		padding: 0% 1.041%;
+		width: 47.724%;
+	}
+	
+	#navigation li{
+		
+		display: none;
+		width: 6.249%;
+	}
+	
+
+		#wrapper{
+	
+		padding: 3.125% 0%;
+}
+
+	#wrapper > div {
+		
+		 padding: 0% 4.164%;
+		width: 45.454%;
+	}
+
+	#wrapper > div img {
+ 
+		margin-left: 3.125%;
+}
+	#wrapper h2 {
+    
+	margin: 0.52% 0% 2.602%;
+	padding-left: 2.073%;	
+}
+
+#wrapper h3 {
+    
+    padding-left: 2.552%;	
+}
+
+	
+	#wrapper p span {
+		display: none;
+
+		width: 20.454%;
+		
+		}
+	
+	.btn{
+		display: none;
+		/*font: 1.145%/3.125%;
+		width: 10.068%;*/
+	}
+	
+	#wrapper p span b
+	{
+		padding: 24px 25px 0px 0px;
+		width: 14.545%; 
+	}
+
+	
+	#sadrzaj
+	{
+		
+		width: 49.999% 
+	}
+	/*
+	#unutrasnjost > div
+	{
+		margin: 0% 1.041%;
+		width: 22.726%;
+	}
+
+p {
+    
+    margin: 0% 0% 1.562%;
+}
+	
+	#unutrasnjost h1 {
+   
+	margin-left: 1.562%;    
+}
+	*/span {
+    
+	margin-left: 1.562%;    
+}
+#unutrasnjost h3 {
+    
+    margin: 0.781% 1.562% 1.562%;
+}
+
+#footer {
+    
+    padding: 1.562% 0%;
+}
+}
+
+/*
+@media (max-width: 480px) {
+	.col-8,
+	.col-4 {
+		width: 96%;
+	}
+	
+	nav {
+		display: none;
+	}
+	
+	nav li {
+		display: block;
+		margin: 0 0 10px 0 !important;
+	}
+}*/
