@@ -20,11 +20,13 @@ if(isset($_GET['submit']))
 
 if($admin_users->login($username, $password))
 {
-	header:("Location:index.php");
-	exit;
+	
+	
 }else {
 	
 	Msg::setErr("Neuspesno logovanje!");
+	
+	
 	
 }
 
