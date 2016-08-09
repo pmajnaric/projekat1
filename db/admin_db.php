@@ -1,5 +1,5 @@
 CREATE DATABASE `projekat1` ;
-
+USE projekat1;
  CREATE TABLE `admin_users` (
   `idadmin_users` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(45) DEFAULT NULL,
@@ -9,8 +9,7 @@ CREATE DATABASE `projekat1` ;
 
 
 INSERT INTO `projekat1`.`admin_users`
-(`idadmin_users`,
-`username`,
+(`username`,
 `password`)
 VALUES
 ('1','2'),
