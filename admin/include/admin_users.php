@@ -1,5 +1,3 @@
-
-
 <?php
 
 class Admin_users
@@ -31,8 +29,8 @@ public function login($username, $password)
 
 
 
-};
+}
 
 
 
-?> 
+
