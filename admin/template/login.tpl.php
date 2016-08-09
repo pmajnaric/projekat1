@@ -2,7 +2,7 @@
  <div id="wrapper_admin">
 
  
-  <form action="index.php" method="get">
+  <form action="login.php" method="POST">
  	<label for="username">Username:</label>
  	<br/>
  	<input type="text" value="" name="username" placeholder="korisnicko ime"/>

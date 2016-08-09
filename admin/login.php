@@ -12,25 +12,25 @@ $admin_users= new Admin_users();
 
 
 
-if(isset($_GET['submit']))
+if(isset($_POST['submit']))
 {
 	
-	$username=!empty($_GET['username']) ? $_GET['username'] : "";
-	$password=!empty($_GET['password']) ? $_GET['password'] : "";
+	$username=!empty($_POST['username']) ? $_POST['username'] : "";
+	$password=!empty($_POST['password']) ? $_POST['password'] : "";
 
 if($admin_users->login($username, $password))
 {
-	
-	
+	header("Location:home.php");
+
 }else {
 	
 	Msg::setErr("Neuspesno logovanje!");
 	
-	
+}
 	
 }
 
-}
+
 
 
 App::setTitle('Admin');
