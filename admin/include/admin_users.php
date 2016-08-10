@@ -26,6 +26,23 @@ public function login($username, $password)
 	
 	}
 	}
+	
+	public function is_logged()
+	{
+		if($_SESSION['idadmin_users'])
+		{
+			Msg::setMsg("Dobro dosli na stranicu za administraciju!");
+			return true;
+			
+		}else{
+			
+			Msg::setErr("Morate biti ulogovani!");
+			return false;
+		
+		}
+		
+	}
+	
 
 
 

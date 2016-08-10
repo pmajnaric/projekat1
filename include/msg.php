@@ -13,7 +13,7 @@ class Msg{
 	public static function getErr()
 	{
 		if(empty($_SESSION['error']) || !is_array($_SESSION['error'])){return false;}
-		return $_SESSION['error'];
+		 return $_SESSION['error'];
 		   
 		   }
 	public static function clearErr()
