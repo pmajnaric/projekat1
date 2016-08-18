@@ -11,7 +11,7 @@
 	
 		foreach(App::getCss() as $key=>$val)
 		{
-			echo"<link rel=\"stylesheet\" type=\"text/css\" href=\"../css/{$val}.css?".time()."\">";
+			echo"<link rel=\"stylesheet\" type=\"text/css\" href=\"css/{$val}.css?".time()."\">";
 		}
 ?>
 
