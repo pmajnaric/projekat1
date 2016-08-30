@@ -48,25 +48,6 @@ div#info div h2{
 	text-decoration: none;
     width: 300px;
 }
-<<<<<<< HEAD
-div#nav h3{
-	color: #4e6779;
-    display: block;
-	font-family: Times New Roman;
-    font-size: 18px;
-    float: left;
-    font-weight: bold;
-    height: 41px;
-    line-height: 41px;
-    margin: 0px;
-    padding: 0px;
-    text-transform: uppercase;
-	text-decoration: none;
-    width: 300px;
-}
-=======
-
->>>>>>> 36a2ae9fee7ebb6becfe0a6e7f9fce81777a7776
 div#info div ul.navigation {
     float: right;
     height: 41px;
@@ -355,13 +336,8 @@ float:left;
 
 #nav ul li a { 
 
-<<<<<<< HEAD
-    width: 100%;
-    float: left;
-=======
   width: 100%;
        float: left;
->>>>>>> 36a2ae9fee7ebb6becfe0a6e7f9fce81777a7776
     color:#fff;
     padding: 10px 19px;
     text-decoration:none;

@@ -2,7 +2,7 @@
 <div id="nav">
 <ul>
 
-<li><a href="http://www.allbloggingtips.com/">Home</a></li>
+<li><a href="#">Admin</a></li>
  <li><a href="#">Kategorije</a>
             <ul>
 				<li><a href="#">Nauka</a>
