@@ -1,4 +1,8 @@
 <?php
+<<<<<<< HEAD
+=======
+
+>>>>>>> 36a2ae9fee7ebb6becfe0a6e7f9fce81777a7776
 $err=Msg::getErr();
 Msg::clearErr();
 ?>
@@ -12,6 +16,10 @@ Msg::clearErr();
 
 
 <?php endif;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 36a2ae9fee7ebb6becfe0a6e7f9fce81777a7776
 $msg=Msg::getMsg();
 Msg::clearMsg();
 ?>
@@ -25,4 +33,9 @@ Msg::clearMsg();
 </div>
 
 
+<<<<<<< HEAD
 <?php endif;?>
+=======
+<?php endif;?>
+
+>>>>>>> 36a2ae9fee7ebb6becfe0a6e7f9fce81777a7776
