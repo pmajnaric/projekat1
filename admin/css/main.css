@@ -441,7 +441,24 @@ border-radius: 5px;
     border-radius:0 6px 0 0;
 
 }
-/*#nav h3{
+
+table, th, td,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#admins {
+    width: 100%;    
+    background-color: #f1f1c1;
+	
+	
+	
+	
+}/*#nav h3{
 	color: #4e6779;
     display: block;
 	font-family: Times New Roman;
