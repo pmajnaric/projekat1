@@ -6,7 +6,8 @@ require_once "../include/app.php";
 
 
 
-
+$admins = DB::select('*', 'admin_users');
+print_r($admins); exit;
 
 App::setTitle('Admins');
 App::setCss(['main']);
