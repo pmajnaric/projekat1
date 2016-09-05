@@ -72,7 +72,7 @@ class App
 			if(!is_array($css)){$css=array($css);}
 			
 			self::$page_css=array_merge(self::$page_css, $css);
-		}
+			}
 	
 		public static function getCss()
 		{
@@ -80,9 +80,17 @@ class App
 			return self::$page_css;
 		}
 	
+		public static function vars($vars)
+		{
+			if(empty($vars)){return;}
+			if(!is_array($vars)){$vars=array($vars);}
+			self::$vars=array_merge(self::$vars, $vars);
+		}
+	
 };
 
-
+			
+		
 
 session_start();
 App::setDB();
