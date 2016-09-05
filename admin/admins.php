@@ -4,10 +4,13 @@
 error_reporting(E_ALL);
 require_once "../include/app.php";
 
+//$admins=new Admin_users();
 
 
-$admins = DB::select('*', 'admin_users');
-print_r($admins); exit;
+
+//$admins = DB::select('*', 'admin_users');
+//print_r($admins); exit;
+
 
 App::setTitle('Admins');
 App::setCss(['main']);

@@ -46,20 +46,19 @@ public function login($username, $password)
 	
 	
 
-public function select()
+public function selectAdmin()
 {
 	
-		$id_users=!empty($_POST['idadmin_users']) ? $_POST['idadmin_users'] : "";
-		$username=!empty($_POST['username']) ? $_POST['username'] : "";
-		$password=!empty($_POST['password']) ? $_POST['password'] : "";
-
+	$user=App::DB()->select("*","admin_users","");
 	
-		$user['idadmin_users']=App::DB()->select("*","admin_users",['idadmin_users'=>$id_users,'username'=>$username, 'password'=>$password]);
-	
-		if($user['idadmin_users']>0)
-		{
 		
+//print_r($user); exit;
+	
+	/*	if($user['idadmin_users'])
+		{
+			
 			return true;
+			
 		}
 		else{
 		
@@ -67,7 +66,7 @@ public function select()
 		
 			return false;
 	
-			}
+			}*/
 }
 
  
