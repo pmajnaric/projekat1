@@ -4,17 +4,12 @@
 error_reporting(E_ALL);
 require_once "../include/app.php";
 
-//$admins=new Admin_users();
-
-
-
-//$admins = DB::select('*', 'admin_users');
-//print_r($admins); exit;
-
+$admins = App::DB()->select("*","admin_users","");
+App::addTplVar('admins', $admins);
 
 App::setTitle('Admins');
 App::setCss(['main']);
-App::template(['header', 'admins', 'msg']);
+App::template(['header', 'menu', 'admins', 'msg']);
 
 
 ?>

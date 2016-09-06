@@ -13,7 +13,7 @@ class App
 	private static $db;
 	private static $defTitle='Velikani';
 	private static $page_meta=[];
-	private static $vars=[];
+	private static $tpl_vars=[];
 	private static $prefix='template/';
 	private static $sufix='.tpl.php';
 	private static $page_css=[];
@@ -55,10 +55,10 @@ class App
 	public static function template ($template)
 	{
 		if(empty($template)){return;}
-		if(!is_array($template)){$template=array($template);}
-		
-		foreach(self::$vars as $key=>$val)
+		if(!is_array($template)){$template=array($template);};
+		foreach(self::$tpl_vars as $key=>$val)
 		{
+		
 			$$key=$val;	
 		}
 		foreach($template as $val)
@@ -80,11 +80,12 @@ class App
 			return self::$page_css;
 		}
 	
-		public static function vars($vars)
+		public static function addTplVar($name, $val)
 		{
-			if(empty($vars)){return;}
-			if(!is_array($vars)){$vars=array($vars);}
-			self::$vars=array_merge(self::$vars, $vars);
+			if(empty($name)){return;}
+			$var = [];
+			$var[$name] = $val;
+			self::$tpl_vars=array_merge(self::$tpl_vars, $var);
 		}
 	
 };

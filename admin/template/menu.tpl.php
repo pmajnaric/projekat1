@@ -2,7 +2,7 @@
 <div id="nav">
 <ul>
 
-<li><a href="#">Admin</a></li>
+<li><a href="admins.php">Admins</a></li>
  <li><a href="#">Kategorije</a>
             <ul>
 				<li><a href="#">Nauka</a>

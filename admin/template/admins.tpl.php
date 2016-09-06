@@ -1,31 +1,20 @@
-<?php
-
- //$admin_users= new Admin_users();
- //$k[]=$admin_users->selectAdmin();
- //print_r($k);
-$k[]=App::DB()->select("*","admin_users","");
-//print_r($k);
-?>
    
    
    <table id="admins">
   <caption>Administratori stranice</caption>
   <tr>
-    <th>User_id</th>
-    <th>Username</th>
-    <th>Password</th>
+     <th>Username</th>
   </tr>
  
   <?php
 	   //koliko kontam ovde nesto ne stima..pff
-	   if(!empty($k)): ?>
+	   if(!empty($admins)): ;?>
+	   
+		<?php foreach($admins as $v): ?>
 			<tr>
-				<td><?php foreach($k as $v):print_r($v); ?>
-					<?=$v?><br/>
-					<?php endforeach; ?>
-				</td>
-				
+				<td><?=$v['username']?></td>
 			</tr>
+		<?php endforeach; ?>
 
 	<?php endif;?>
  
