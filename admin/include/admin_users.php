@@ -46,28 +46,7 @@ public function login($username, $password)
 	
 	
 
-public function selectAdmin()
-{
-	
-	$user=App::DB()->select("*","admin_users","");
-	
-		
-//print_r($user); exit;
-	
-	/*	if($user['idadmin_users'])
-		{
-			
-			return true;
-			
-		}
-		else{
-		
-			Msg::setErr("Nema registrovanih administratora!");
-		
-			return false;
-	
-			}*/
-}
+
 
  
 
